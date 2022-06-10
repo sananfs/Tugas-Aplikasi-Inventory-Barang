@@ -1,0 +1,49 @@
+@media (min-width: 992px) {
+    .Login {
+        margin-top: -75px;
+        background-image: url(/src/Assets/img/bghitam2.jpg);
+        background-size: cover;
+        background-position: center;
+        min-width: 100vw;
+        height: 634px;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    .left-side,
+    .right-side {
+        height: 100%;
+        width: 100%;
+        margin: 2rem 2rem;
+    }
+    .left-side {
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        /* justify-content: center; */
+        color: white !important;
+        justify-content: center;
+        padding-bottom: 50px;
+        padding-left: 100px;
+    }
+    .login-img {
+        width: 289px !important;
+        border-radius: 0 1rem 1rem 0;
+        position: relative;
+        top: -32px;
+        right: -72px;
+        /* height: 100% !important; */
+    }
+    .Login-contain {
+        height: 75vh;
+        width: 70%;
+        border-radius: 1rem;
+        margin: 4rem auto;
+        background: rgba(130, 158, 154, 0.6);
+        box-shadow: 0 3px 20px rgba(173, 172, 172, 0.5);
+        box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

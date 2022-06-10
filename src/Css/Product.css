@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+.product {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.productcont {
+    padding-left: 90px;
+}
+
+.productitem {
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+
+.productitem:hover {
+    transform: translate(0, -15px);
+}
+
+.productimg {
+    width: 50%;
+}

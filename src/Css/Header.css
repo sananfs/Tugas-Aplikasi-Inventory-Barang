@@ -1,0 +1,33 @@
+div .navbar {
+    z-index: 1;
+    position: relative;
+}
+
+div .mr-5 {
+    margin-right: 30px;
+    transition: 0.7s all !important;
+}
+
+div .mr-5:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(47, 255, 57);
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+div .navbtn {
+    position: relative;
+    bottom: 5px;
+    border-radius: 20px !important;
+    transition: all 0.4s ease-in !important;
+    font-size: 1em;
+}
+
+div .navbtn:hover {
+    background-color: blueviolet !important;
+    border: blueviolet !important;
+    color: white !important;
+}
